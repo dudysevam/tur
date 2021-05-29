@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-color: lightcoral;
+   
+
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px ;
+    
+ 
+}
+header img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: lightblue;
+    display: inline-block;
+}
+footer{
+     background-color: lightblue;
+     font-family: sans-serif;
+    font-size: 30px ;
+    color: purple;
+ display: flex;
+    
+    align-items: center;
+}
+
+div{
+  display: block;
+    flex-wrap: wrap;
+    float: right;
+}  
+
+
+section{
+display: flex;
+flex-wrap: wrap; }
+
+article{
+justify-content: space-between;
+background-color: whitesmoke;
+width: 1000px;
+height: 1000px;
+color: gray;
+padding: 10px;
+margin: 100px;
+
+}
